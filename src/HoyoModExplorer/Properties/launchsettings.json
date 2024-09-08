@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "HoyoModExplorer (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "HoyoModExplorer (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
