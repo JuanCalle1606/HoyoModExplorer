@@ -12,14 +12,14 @@
 
   <Identity
     Name="acc17537-8d0e-495d-a74c-86e20a9aac5c"
-    Publisher="CN=imkot"
+    Publisher="CN=kotoky"
     Version="1.0.0.0" />
     
   <mp:PhoneIdentity PhoneProductId="acc17537-8d0e-495d-a74c-86e20a9aac5c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>HoyoModExplorer</DisplayName>
-    <PublisherDisplayName>imkot</PublisherDisplayName>
+    <PublisherDisplayName>kotoky</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -63,6 +63,7 @@
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
+    <Capability Name="internetClient"/>
   </Capabilities>
 
   <genTemplate:Metadata>

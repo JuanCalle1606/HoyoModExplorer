@@ -18,6 +18,16 @@
     <Company />
     <Authors>Kotoky</Authors>
     <Copyright>Copyrigth © 2024 Kotoky</Copyright>
+    <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <PackageCertificateKeyFile>HoYoMod.pfx</PackageCertificateKeyFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>E:\Source\dotnet\HoyoModExplorer\.build\AppPackages\</AppxPackageDir>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Never</AppxBundle>
+    <AppInstallerUri>E:\Source\dotnet\HoyoModExplorer\.build\AppInstaller\</AppInstallerUri>
   </PropertyGroup>
 
   <ItemGroup>
