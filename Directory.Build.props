@@ -1,0 +1,26 @@
+<Project>
+	<PropertyGroup Condition="$(SolutionDir) == ''">
+		<SolutionDir>../../</SolutionDir>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>12.0</LangVersion>
+		<Authors>Kotoky</Authors>
+		<Copyright>Copyrigth © 2024 Kotoky</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryBranch>main</RepositoryBranch>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<NeutralLanguage>es</NeutralLanguage>
+		<RootNamespace>$(MSBuildProjectName)</RootNamespace>
+    	<NoWin32Manifest>true</NoWin32Manifest>
+    	<Nullable>annotations</Nullable>
+    	<BaseIntermediateOutputPath>$(SolutionDir).build\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+   		<BaseOutputPath>$(SolutionDir).build\bin\$(MSBuildProjectName)</BaseOutputPath>
+		<BuildPath>$(SolutionDir).build\</BuildPath>
+   		<ApplicationIcon>$(MSBuildThisFileDirectory)src\HoyoModExplorer\Assets\WindowIcon.ico</ApplicationIcon>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="$(Configuration)=='Release'">
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+</Project>

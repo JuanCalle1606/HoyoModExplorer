@@ -7,8 +7,8 @@
     <Nullable>enable</Nullable>
     <PublishAot>true</PublishAot>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <SignAssembly>False</SignAssembly>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>HoYoMod Explorer Installer</AssemblyName>
   </PropertyGroup>
 
 </Project>
