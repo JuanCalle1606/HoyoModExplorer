@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://juancalle1606.github.io/HoyoModExplorer/HoyoModExplorer_x64.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="acc17537-8d0e-495d-a74c-86e20a9aac5c"
+		Version="1.0.0.0"
+		Publisher="CN=kotoky"
+		Uri="https://juancalle1606.github.io/HoyoModExplorer/HoyoModExplorer_1.0.0.0_x64_Test/HoyoModExplorer_1.0.0.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.5"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://juancalle1606.github.io/HoyoModExplorer/HoyoModExplorer_1.0.0.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.5.msix"
+			Version="5001.214.1843.0" />
+	</Dependencies>
+	<!-- Read more about updating settings with Package.appinstaller at https://docs.microsoft.com/windows/msix/app-installer/update-settings -->
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
